@@ -71,7 +71,7 @@ In order to use this model with real world data, additional analysis and model t
 
 The estimator requires the user to know the SLOC count for the change they are going to implement. This is usually obtained by estimating the scale of the change for each file or package. In the example shown below, 380 is the number that would be used in the estimator tool.
 
-IMAGE
+![Example of a spreadsheet calculating a SLOC estimate](images/sloc-estimate.png)
 
 ### Installation
 
@@ -99,8 +99,7 @@ There are several ways to use this estimator:
    py eng_hours_est.py
    ```
    * In the GUI enter a number for SLOC, select a programming language, and then click Plot
-
-      IMAGE
+![Image of Estimator GUI with SLOC set to 380 and a red box around the Hours output](images/est-gui.png)
    * The hours estimate will be shown in the upper right corner as well as on the scatter plot. The scatter plot also shows the data used to train the model for reference 
    
 2. Create a new random dataset with sloc_hours.py and retrain the model Estimator.ipynb
