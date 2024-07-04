@@ -71,7 +71,7 @@ In order to use this model with real world data, additional analysis and model t
 
 The estimator requires the user to know the SLOC count for the change they are going to implement. This is usually obtained by estimating the scale of the change for each file or package. In the example shown below, 380 is the number that would be used in the estimator tool.
 
-![Example of a spreadsheet calculating a SLOC estimate](images/sloc-estimate.png)
+![Example of a spreadsheet calculating a SLOC estimate](images/sloc-estimate.PNG)
 
 ### Installation
 
