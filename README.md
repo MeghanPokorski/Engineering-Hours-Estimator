@@ -27,11 +27,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This model is intended to be used to more accurately estimate the effort required to complete model based development (MBD) activities. Most commercial bidding and estimating tools do not differentiate between programming languages, and they definitely do not account for the differences between hand coding and MBD. This can lead to large discrepancies in between the hours bid and the hours required to actually complete the activity.  We are focusing on MATLAB/Simulink in this model, however it could be expanded to include other MBD tools. 
+This model is intended to be used to more accurately estimate the effort required to complete model based development (MBD) activities. Most commercial bidding and estimating tools do not differentiate between programming languages, and they definitely do not account for the differences between hand coding and MBD. This can lead to large discrepancies in between the hours bid and the hours required to actually complete the activity.  We are focusing on MATLAB/Simulink in this model; however, it could be expanded to include other MBD tools. 
 
 #### Model Based Development
 
-MBD is a method of software development that is used the aerospace, automotive, and industrial equipment industries in applications with complex controls and signal processing. MBD offers some advantages in prototyping and testing over more traditional hand coding in these applications. An example application of MBD using Simulink, an anti-lock breaking system, can be found on [Mathworks](https://www.mathworks.com/help/simulink/slref/modeling-an-anti-lock-braking-system.html). C/C++ code is generated from the model and then compiled for use in the final application.
+MBD is a method of software development that is used the aerospace, automotive, and industrial equipment industries in applications with complex controls and signal processing. MBD offers some advantages in prototyping and testing over more traditional hand coding in these applications. An example application of MBD using Simulink, an anti-lock braking system, can be found on [Mathworks](https://www.mathworks.com/help/simulink/slref/modeling-an-anti-lock-braking-system.html). C/C++ code is generated from the model and then compiled for use in the final application.
 
 ## Estimation
 
@@ -85,7 +85,7 @@ The estimator requires the user to know the SLOC count for the change they are g
 
    Note: pickle and random are in the Python standard library and do not need to be installed separately. 
 
-2. Upload all files from this repo into Jupyter Notenook
+2. Upload all files from this repo into Jupyter Notebook
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
